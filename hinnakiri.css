@@ -1,0 +1,41 @@
+.hinnakiri {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+.hinnakiri table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hinnakiri table,
+.hinnakiri table tr,
+.hinnakiri table td {
+  border: 1px solid #000;
+}
+
+.hinnakiri table th {
+  border: 2px solid #000;
+}
+
+.hinnakiri .tagasi {
+  margin-top: 30px;
+}
+
+.hinnakiri .tagasi a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 18px;
+  background-color: #5c4de6;
+}
+
+.hinnakiri .tagasi a:hover {
+  background-color: #2c256e;
+}
