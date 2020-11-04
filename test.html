@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=API_KEY&v=weekly"
+      defer
+    ></script>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .side {
+        width: 100%;
+      }
+
+      .galerii {
+        width: 100%;
+        border: 1px solid #000;
+      }
+
+      .right {
+        text-align: center;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Marie ilutuba</h1>
+    <div class="container">
+      <div class="side left">
+        <h2>
+          <a href="./hinnakiri.html">HINNAKIRI</a> |
+          <a href="./broneeri.html">BRONEERI AEG</a>
+          <div class="galerii">
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rannavilla.ee%2Fwp-content%2Fuploads%2F2016%2F10%2FIlutuba_4.jpg&f=1&nofb=1"
+              alt="Pilt"
+              class="img1"
+              width="100%"
+            />
+          </div>
+        </h2>
+      </div>
+      <div class="side right">
+        <h2>
+          <a href="#ig">IG</a>
+          <a href="#fb">F</a>
+          <a href="#tb">T</a>
+        </h2>
+        <div class="gmaps" id="map"></div>
+        <p>Aadress</p>
+        <p>Avamise ja sulgemise ajad</p>
+      </div>
+    </div>
+  </body>
+</html>
